@@ -1,8 +1,7 @@
 {
     "github.copilot.nextEditSuggestions.enabled": true,
     "http.proxySupport": "on",
-    // "http.proxy": "http://user:pass@server:port",
-    "http.proxyStrictSSL": "false",
+    "http.proxy": "http://user:pass@server:port",
     "http.proxyAuthorization": null,
     "github.copilot.enable": {
         "*": true,
