@@ -1,0 +1,29 @@
+{
+    "github.copilot.nextEditSuggestions.enabled": true,
+    "http.proxySupport": "on",
+    // "http.proxy": "http://user:pass@server:port",
+    "http.proxyStrictSSL": "false",
+    "http.proxyAuthorization": null,
+    "github.copilot.enable": {
+        "*": true,
+        "plaintext": true,
+        "markdown": true,
+        "scminput": false
+    },
+    "remote.extensionKind": {
+    "GitHub.copilot": [
+        "ui"
+    ],
+    "GitHub.copilot-chat": [
+        "ui"
+    ]
+},
+    "workbench.colorTheme": "Default Dark+",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.autofetch": true,
+    "http.proxyStrictSSL": false,
+    "git.enableSmartCommit": true,
+    "github.copilot.chat.localeOverride": "ru",
+    "github.copilot.chat.newWorkspace.useContext7": true,
+    "http.fetchAdditionalSupport": false
+}
