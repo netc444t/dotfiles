@@ -1,28 +1,46 @@
 {
     "github.copilot.nextEditSuggestions.enabled": true,
     "http.proxySupport": "on",
-    "http.proxy": "http://user:pass@server:port",
+    "http.proxy": "http://user:pass@host:3128",
+    "http.proxtStrictSSL": "false",
     "http.proxyAuthorization": null,
+    "http.noProxy": ["git.crptech.ru"],
+    "java.autobuild.enabled": false,
     "github.copilot.enable": {
         "*": true,
         "plaintext": true,
         "markdown": true,
         "scminput": false
     },
-    "remote.extensionKind": {
-    "GitHub.copilot": [
-        "ui"
-    ],
-    "GitHub.copilot-chat": [
-        "ui"
-    ]
-},
     "workbench.colorTheme": "Default Dark+",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.autofetch": true,
     "http.proxyStrictSSL": false,
-    "git.enableSmartCommit": true,
-    "github.copilot.chat.localeOverride": "ru",
-    "github.copilot.chat.newWorkspace.useContext7": true,
-    "http.fetchAdditionalSupport": false
+    "remote.extensionKind": {
+    "GitHub.copilot": [
+      "workspace"
+    ],
+    "GitHub.copilot-chat": [
+      "workspace"
+    ],
+  },
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "git.enableSmartCommit": true,
+  "explorer.confirmDragAndDrop": false,
+  "git.confirmSync": false,
+  "chat.mcp.autostart": "newAndOutdated",
+  "explorer.confirmDelete": false,
+  "redhat.telemetry.enabled": false,
+  "github.copilot.chat.newWorkspace.useContext7": true,
+  "git.replaceTagsWhenPull": true,
+  "gitlens.remotes": [
+    {
+      "domain": "git.galera.ru",
+      "type": "GitLab"
+    }
+  ],
+  "projectManager.git.baseFolders": [
+    "/home/alnechaev/Dev/"
+  ],
+  "projectManager.sortList": "Name"
 }
