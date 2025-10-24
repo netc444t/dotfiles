@@ -1,8 +1,8 @@
 {
+  "update.mode": "none",
     "github.copilot.nextEditSuggestions.enabled": true,
     "http.proxySupport": "on",
     "http.proxy": "http://user:pass@host:3128",
-    "http.proxtStrictSSL": "false",
     "http.proxyAuthorization": null,
     "http.noProxy": ["git.crptech.ru"],
     "java.autobuild.enabled": false,
@@ -12,35 +12,32 @@
         "markdown": true,
         "scminput": false
     },
-    "workbench.colorTheme": "Default Dark+",
     "diffEditor.ignoreTrimWhitespace": false,
     "git.autofetch": true,
     "http.proxyStrictSSL": false,
-    "remote.extensionKind": {
-    "GitHub.copilot": [
-      "workspace"
+    "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+    "git.enableSmartCommit": true,
+    "explorer.confirmDragAndDrop": false,
+    "git.confirmSync": false,
+    "chat.mcp.autostart": "newAndOutdated",
+    "explorer.confirmDelete": false,
+    "redhat.telemetry.enabled": false,
+    "github.copilot.chat.newWorkspace.useContext7": true,
+    "git.replaceTagsWhenPull": true,
+    "gitlens.remotes": [
+      {
+        "domain": "git.crptech.ru",
+        "type": "GitLab"
+      }
     ],
-    "GitHub.copilot-chat": [
-      "workspace"
+    "projectManager.git.baseFolders": [
+      "/home/alnechaev/Dev/"
     ],
-  },
-  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
-  "git.enableSmartCommit": true,
-  "explorer.confirmDragAndDrop": false,
-  "git.confirmSync": false,
-  "chat.mcp.autostart": "newAndOutdated",
-  "explorer.confirmDelete": false,
-  "redhat.telemetry.enabled": false,
-  "github.copilot.chat.newWorkspace.useContext7": true,
-  "git.replaceTagsWhenPull": true,
-  "gitlens.remotes": [
-    {
-      "domain": "git.galera.ru",
-      "type": "GitLab"
-    }
-  ],
-  "projectManager.git.baseFolders": [
-    "/home/alnechaev/Dev/"
-  ],
-  "projectManager.sortList": "Name"
+    "projectManager.sortList": "Name",
+    "gitlens.ai.model": "vscode",
+    "gitlens.ai.vscode.model": "copilot:gpt-4.1",
+    "window.menuBarVisibility": "compact",
+    "files.autoSave": "afterDelay",
+    "window.titleBarStyle": "custom",
+    "window.customMenuBarAltFocus": false 
 }
